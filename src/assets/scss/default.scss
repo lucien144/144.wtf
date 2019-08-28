@@ -1,0 +1,8 @@
+@import 'config';
+@import 'bootstrap';
+@import 'typo';
+
+html, body {
+  background-color: $creme;
+  color: $grey;
+}

@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css?family=Merriweather:300,400,900|Open+Sans&display=swap');
+
+html, body {
+  font-family: 'Merriweather', Helvetica, Arial, sans-serif;
+  font-size: $font-size;
+  font-weight: $font-weight-regular;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h1 {
+    text-align: center;
+    font-weight: $font-weight-black;
+}
+
+h2 {
+    text-align: center;
+    font-weight: $font-weight-black;
+}
+
+blockquote {
+    text-align: center;
+    font-weight: $font-weight-light;
+    font-size: 1.2rem;
+}
