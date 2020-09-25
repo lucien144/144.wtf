@@ -5,8 +5,11 @@
                 <div class="avatar mt-5">
                     <img src="@/assets/images/avatar.jpg" class="avatar__img"/>
                 </div>
-                <h1 class="my-4">Honza Blasko <span class="hello">👋</span></h1>
-                <blockquote class="m-0">Frontend & Backend <span class="d-block d-md-inline">&mdash;</span> Prague & Sydney <span class="d-block d-md-inline">&mdash;</span> Chipmunks & Coffee</blockquote>
+                <div class="hello">
+                    <h1 class="my-4">Honza Blasko <span class="hello__wave">👋</span></h1>
+                    <blockquote><abbr title="Vue.js / Nuxt.js, Laravel">Fullstack</abbr> &amp; <abbr title="Flutter">Mobile</abbr> Dev<span class="d-block d-md-inline">&mdash;</span> Prague & Sydney <span class="d-block d-md-inline">&mdash;</span> Chipmunks & Coffee</blockquote>
+                    <p class="text-center mb-0">👉 I’m currently the tech lead at <a href="https://circul8.com.au/" target="_blank" class="hello__c8">Circul8</a>. 👈</p>
+                </div>
             </div>
         </div>
 
@@ -24,9 +27,10 @@
             <div class="col-12 col-sm-6 mt-4 mt-sm-0 text-center">
                 <h3 class="u-darrow">Side Projects</h3>
                 <ul class="list">
-                    <li class="list__item">👕 <a href="https://devnull.store" target="_blank">/dev/null/store</a></li>
+                    <li class="list__item">📱 <a href="https://github.com/lucien144/fyx" target="_blank">Fyx for Nyx.cz</a>&nbsp;<sup>🇨🇿</sup></li>
+                    <li class="list__item">👕 <a href="https://devnull.store" target="_blank">/dev/null store</a></li>
                     <li class="list__item">🕹 <a href="https://www.thebuttongame.io" target="_blank">The Button Game</a></li>
-                    <li class="list__item">🍿 <a href="https://artkina.cz" target="_blank">Artkina</a></li>
+                    <li class="list__item">🍿 <a href="https://artkina.cz" target="_blank">Artkina</a>&nbsp;<sup>🇨🇿</sup></li>
                 </ul>
             </div>
         </div>
@@ -35,28 +39,69 @@
 
         <div class="row">
             <div class="col-12 position-relative">
-                <h2 class="u-darrow">My Work</h2>
+                <h2 class="u-darrow">Recent Work</h2>
                 <p class="text-center" v-if="!showWork">Loading, plesae wait&hellip;</p>
                 <div id="work-container" :class="{invisible: !showWork}">
-                    <div class="card" macy-complete="1" v-for="(item, index) in getPosts()" :key="index">
-                        <img :src="getThumbnail(item)" class="card__image">
-                        <div class="card__description" v-html="item['photo-caption']"/>
+                    <div class="card" macy-complete="1" v-for="(project, index) in projects" :key="index">
+                        <img :src="require(`@/assets/images/work/${project.image}`)" class="card__image">
+                        <div class="px-3 py-2">
+                            <h3 class="card__title" v-html="project.title"/>
+                            <div class="card__copy">
+                                <h4>About</h4>
+                                <p>{{ project.description }}</p>
+                                <h4>Client</h4>
+                                <p>{{ project.client }}</p>
+                                <h4>Technologies</h4>
+                                <ul v-if="project.tags" class="card__tags">
+                                    <li v-for="(tag, index) in project.tags" :key="index" v-text="tag"/>
+                                </ul>
+                            </div>
+                            <a v-if="project.link" :href="project.link" target="_blank" class="card__link"><span class="d-none">Show me</span></a>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
+
+        <hr>
+
+        <div class="row">
+            <div class="col-12 position-relative">
+                <h2 class="u-darrow">Most Notable Projects</h2>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-12 col-sm-4 col-lg-3" v-for="(notable, index) in notables">
+                <NotableProjects
+                    :key="index"
+                    :title="notable.title"
+                    :type="notable.type"
+                    :description="notable.description"
+                    :links="notable.links"
+                    :tags="notable.tags"
+                />
+            </div>
+        </div>
+
+        <hr/>
+
+        <p class="text-center mb-5">All rights reserved.<br>&copy; {{ date }} Jan Blasko</p>
     </main>
 </template>
 
 <script>
 import Macy from 'macy';
-import data from '@/assets/work.json';
+import data from '@/assets/recent.json';
+import notable from '@/assets/notable.json';
+import NotableProjects from '@/components/NotableProjects';
 
 export default {
+    components: {NotableProjects},
     computed: {
-      posts() {
-          return data.posts.filter(post => post.state === 'published');
-      }
+        projects: () => data,
+        notables: () => notable,
+        date: () => (new Date).getFullYear()
     },
     data() {
         return {
@@ -83,30 +128,39 @@ export default {
         macy.on(macy.constants.EVENT_IMAGE_COMPLETE, function (ctx) {
           self.showWork = true;
         });
-    },
-    methods: {
-        getPosts(page = 1, perPage = 20) {
-            return [...this.posts].splice((page - 1) * perPage, perPage * page);
-        },
-        getThumbnail(post, width = 400) {
-            return post['photo-url'].find(photo => parseInt(photo['max-width']) <= width).copy;
-        }
-    },
+    }
 }
 </script>
 
 <style lang="scss" scoped>
 .hello {
-    @keyframes hi {
-        0%, 70%, 85%  { transform: rotate(0) }
-        73%  { transform: rotate(-10deg) }
-        76%  { transform: rotate(10deg) }
-        79%  { transform: rotate(-10deg) }
-        82%  { transform: rotate(10deg) }
+    &__wave {
+        @keyframes hi {
+            0%, 70%, 85% {
+                transform: rotate(0)
+            }
+            73% {
+                transform: rotate(-10deg)
+            }
+            76% {
+                transform: rotate(10deg)
+            }
+            79% {
+                transform: rotate(-10deg)
+            }
+            82% {
+                transform: rotate(10deg)
+            }
+        }
+        display: inline-block;
+        animation: hi 3s linear infinite;
     }
-    display: inline-block;
-    animation: hi 3s linear infinite;
+    &__c8 {
+        color: $grey;
+        font-weight: $font-weight-black;
+    }
 }
+
 .avatar__img {
     display: block;
     margin: 0 auto;
@@ -142,32 +196,67 @@ hr {
 }
 
 .card {
+    position: relative;
     padding: 0.5rem;
     margin-bottom: 1rem;
     border-radius: 4px;
     overflow: hidden;
     border: 1px solid $grey-light;
     background-color: #fff;
-}
 
-.card__image {
-  width: 100%;
-  display: block;
-  height: auto;
-}
-
-.card__description {
-    padding: 1rem 1rem 0;
-    font-family: 'Open Sans', sans-serif;
-    font-size: 0.95rem;
-    line-height: 1.5;
-
-    a {
-        color: $grey;
+    &:hover {
+        box-shadow: 0 0 10px $grey-light;
     }
 
-    iframe {
+    &__image {
         width: 100%;
+        display: block;
+        height: auto;
     }
+
+    &__copy {
+        p {
+            font-family: 'Open Sans', sans-serif;
+            font-size: 0.95rem;
+            line-height: 1.5;
+
+            a {
+                color: $grey;
+            }
+
+            iframe {
+                width: 100%;
+            }
+        }
+    }
+
+    &__tags {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        font-family: 'Open Sans', sans-serif;
+        font-size: .85rem;
+        li {
+            display: inline-block;
+            background-color: $grey-light;
+            padding: 2px 4px 3px;
+            margin-bottom: 4px;
+            margin-right: 4px;
+            border-radius: 4px;
+        }
+    }
+
+    &__link {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
+}
+
+abbr {
+    border-bottom: 1px dashed $grey-light;
+    text-decoration: none;
 }
 </style>
