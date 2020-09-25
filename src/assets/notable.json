@@ -1,0 +1,109 @@
+[
+  {
+    "title": "CropCount",
+    "type": "app",
+    "description": "\uD83E\uDD51 A forecast tool farmers can count on.",
+    "links": [
+      {
+        "url": "https://www.circul8.com.au/our-work/crop-count/",
+        "title": "See the case study"
+      }
+    ],
+    "tags": [
+      "Flutter",
+      "Laravel"
+    ]
+  },
+  {
+    "title": "Plant Life Balance",
+    "type": "app",
+    "description": "An award winning lifestyle app.<br><br>",
+    "links": [
+      {
+        "url": "https://www.circul8.com.au/our-work/plant-life-balance/",
+        "title": "See the case study"
+      },
+      {
+        "url": "https://plantlifebalance.com.au/",
+        "title": "See the site"
+      }
+    ],
+    "tags": [
+      "Feathers UI",
+      "Laravel"
+    ]
+  },
+  {
+    "title": "DeSireBull",
+    "type": "product",
+    "description": "A Tinder for bulls.<br><br>",
+    "links": [
+      {
+        "url": "https://www.circul8.com.au/our-work/desirebull/",
+        "title": "See the case study"
+      },
+      {
+        "url": "http://www.desirebull.com.au/",
+        "title": "See the site"
+      }
+    ],
+    "tags": [
+      "Nuxt.js",
+      "Laravel",
+      "Bootstrap"
+    ]
+  },
+  {
+    "title": "RGAW",
+    "type": "site",
+    "description": "Responsible Gambling Awareness Week. Encouraging mates to check in.",
+    "links": [
+      {
+        "url": "https://www.circul8.com.au/our-work/responsible-gambling/",
+        "title": "See the case study"
+      },
+      {
+        "url": "https://www.responsiblegambling.nsw.gov.au/checkmates",
+        "title": "See the site"
+      },
+      {
+        "url": "https://www.responsiblegambling.nsw.gov.au/checkmates#/bet-and-bust/how-to#game",
+        "title": "Play the game"
+      }
+    ],
+    "tags": [
+      "Vue.js",
+      "Game"
+    ]
+  },
+  {
+    "title": "Sanders",
+    "type": "site",
+    "description": "A real estate agency operating in Sydney, Australia.",
+    "links": [
+      {
+        "url": "https://www.sanders.com.au/",
+        "title": "See the site"
+      }
+    ],
+    "tags": [
+      "Wordpress",
+      "Bootstrap"
+    ]
+  },
+  {
+    "title": "W. Clarke College",
+    "type": "site",
+    "description": "William Clarke College is an independent, P-12 co-educational Anglican school in Kellyville (Hills District).",
+    "links": [
+      {
+        "url": "https://www.wcc.nsw.edu.au/",
+        "title": "See the site"
+      }
+    ],
+    "tags": [
+      "Wordpress",
+      "Bootstrap"
+    ]
+  }
+]

@@ -1,0 +1,45 @@
+[
+  {
+    "title": "Sydney Science Trail",
+    "description": "Website for Sydney Science Trail that celebrates and promotes the Australian science community during National Science Week.",
+    "image": "2020-sst.png",
+    "link": "http://sydneysciencetrail.demo.circul8.com.au/",
+    "scope": "website",
+    "client": "Australian Museum, The Royal Botanic Garden Sydney",
+    "tags": [
+      "Nuxt.js",
+      "Markdown",
+      "Vercel",
+      "Bootstrap",
+      "BEM"
+    ]
+  },
+  {
+    "title": "Craft Irish Whiskey",
+    "description": "New luxurious website that ripples on click. This experience is something new you've never seen before.",
+    "image": "2020-ciw.png",
+    "link": "https://www.craftirishwhiskey.com/",
+    "client": "Craft Irish Whiskey",
+    "tags": [
+      "Vue.js",
+      "PIXI.js",
+      "Canvas",
+      "Masking",
+      "Video"
+    ]
+  },
+  {
+    "title": "Circul8 new website ✨",
+    "description": "Redesigning your own website - or being your own client - is the toughest job. I reckon we did good. Months of work is finally out!",
+    "image": "2020-c8.png",
+    "link": "https://www.circul8.com.au/",
+    "client": "Circul8 / Myself (kinda)",
+    "tags": [
+      "Nuxt.js",
+      "PM2",
+      "Cloudinary",
+      "Bootstrap",
+      "Wordpress"
+    ]
+  }
+]
