@@ -8,7 +8,7 @@
                 <div class="hello">
                     <h1 class="my-4">Honza Blasko <span class="hello__wave">👋</span></h1>
                     <blockquote><abbr title="Vue.js / Nuxt.js, Laravel">Fullstack</abbr> &amp; <abbr title="Flutter">Mobile</abbr> Dev<span class="d-block d-md-inline">&mdash;</span> Prague & Sydney <span class="d-block d-md-inline">&mdash;</span> Chipmunks & Coffee</blockquote>
-                    <p class="text-center mb-0">👉 I’m currently the tech lead at <a href="https://circul8.com.au/" target="_blank" class="hello__c8">Circul8</a>. 👈</p>
+                    <p class="text-center mb-0">📍 I’m currently the tech lead at <a href="https://circul8.com.au/" target="_blank" class="hello__c8">Circul8</a>.</p>
                 </div>
             </div>
         </div>
@@ -39,7 +39,7 @@
 
         <div class="row">
             <div class="col-12 position-relative">
-                <h2 class="u-darrow">Recent Work</h2>
+                <h2 class="u-darrow">⚡️ Recent Work</h2>
                 <p class="text-center" v-if="!showWork">Loading, plesae wait&hellip;</p>
                 <div id="work-container" :class="{invisible: !showWork}">
                     <div class="card" macy-complete="1" v-for="(project, index) in projects" :key="index">
@@ -51,6 +51,14 @@
                                 <p>{{ project.description }}</p>
                                 <h4>Client</h4>
                                 <p>{{ project.client }}</p>
+                                <template v-if="project.awards.length">
+                                    <h4>🏆 Awards</h4>
+                                    <ul v-if="project.awards" class="card__awards">
+                                        <li v-for="(award, index) in project.awards" :key="index">
+                                            <span v-text="award.title"/>
+                                        </li>
+                                    </ul>
+                                </template>
                                 <h4>Technologies</h4>
                                 <ul v-if="project.tags" class="card__tags">
                                     <li v-for="(tag, index) in project.tags" :key="index" v-text="tag"/>
@@ -67,7 +75,7 @@
 
         <div class="row">
             <div class="col-12 position-relative">
-                <h2 class="u-darrow">Most Notable Projects</h2>
+                <h2 class="u-darrow">👀 Most Notable Projects</h2>
             </div>
         </div>
 
@@ -84,7 +92,7 @@
             </div>
         </div>
 
-        <hr/>
+        <hr>
 
         <p class="text-center mb-5">All rights reserved.<br>&copy; {{ date }} Jan Blasko</p>
     </main>
@@ -243,6 +251,22 @@ hr {
             margin-bottom: 4px;
             margin-right: 4px;
             border-radius: 4px;
+        }
+    }
+
+    &__awards {
+        font-family: 'Open Sans', sans-serif;
+        list-style: none;
+        padding: 0;
+        li {
+            font-size: 0.95rem;
+            &:before {
+                display: inline-block;
+                padding: 0 .3rem 0 1rem;
+                content: '★';
+                font-size: 0.7rem;
+                transform: translateY(-2px);
+            }
         }
     }
 

@@ -6,6 +6,12 @@
     "link": "http://sydneysciencetrail.demo.circul8.com.au/",
     "scope": "website",
     "client": "Australian Museum, The Royal Botanic Garden Sydney",
+    "awards": [
+      {
+        "title": "2020 W3 Silver Award",
+        "link": "https://www.w3award.com/winners/list/view/?event=1037&award=2&_p=3"
+      }
+    ],
     "tags": [
       "Nuxt.js",
       "Markdown",
@@ -20,6 +26,12 @@
     "image": "2020-ciw.png",
     "link": "https://www.craftirishwhiskey.com/",
     "client": "Craft Irish Whiskey",
+    "awards": [
+      {
+        "title": "2020 W3 Silver Award",
+        "link": "https://www.w3award.com/winners/list/view/?event=1037&award=2&_p=3"
+      }
+    ],
     "tags": [
       "Vue.js",
       "PIXI.js",
@@ -34,6 +46,7 @@
     "image": "2020-c8.png",
     "link": "https://www.circul8.com.au/",
     "client": "Circul8 / Myself (kinda)",
+    "awards": [],
     "tags": [
       "Nuxt.js",
       "PM2",
