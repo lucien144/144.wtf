@@ -1,5 +1,45 @@
 [
   {
+    "title": "From Swamp To Scrub",
+    "description": "Promotional website for Sydney's action packed parkland for kids.",
+    "image": "2021-swamptoscrub.png",
+    "link": "https://www.swamptoscrub.com.au/",
+    "scope": "microsite",
+    "client": "Western Sydney Parklands",
+    "awards": [
+      {
+        "title": "2021 OWD - Appreciation",
+        "link": "https://awards.orpetron.com/from-swamp-to-scrub/"
+      },
+      {
+        "title": "2021 CDA - Special Kudos",
+        "link": "https://www.cssdesignawards.com/sites/from-swamp-to-scrub/39652/"
+      }
+    ],
+    "tags": [
+      "Vue.js",
+      "Lottie",
+      "Fullpage",
+      "Netlify",
+      "BEM"
+    ]
+  },
+  {
+    "title": "Virtual Autopsy",
+    "description": "A microsite for young audience where kids can explore human body in an interactive way.",
+    "image": "2021-autopsy.png",
+    "link": "https://autopsy2021.australian.museum/",
+    "scope": "microsite",
+    "client": "AU Museum",
+    "awards": [],
+    "tags": [
+      "Vue.js",
+      "Fullpage",
+      "Netlify",
+      "BEM"
+    ]
+  },
+  {
     "title": "Sydney Science Trail",
     "description": "Website for Sydney Science Trail that celebrates and promotes the Australian science community during National Science Week.",
     "image": "2020-sst.png",
@@ -8,6 +48,18 @@
     "client": "Australian Museum, The Royal Botanic Garden Sydney",
     "awards": [
       {
+        "title": "2021 CDA - Special Kudos",
+        "link": "https://www.cssdesignawards.com/sites/sydney-science-trail/39619/"
+      },
+      {
+        "title": "2021 Awwwards - Honorable Mention",
+        "link": "https://www.awwwards.com/sites/sydney-science-trail"
+      },
+      {
+        "title": "2021 Webby Honoree",
+        "link": "https://winners.webbyawards.com/2021/websites-and-mobile-sites/general-websites-and-mobile-sites/science/168355/the-sydney-science-trail"
+      },
+      {
         "title": "2020 W3 Silver Award",
         "link": "https://www.w3award.com/winners/list/view/?event=1037&award=2&_p=3"
       }
@@ -15,7 +67,7 @@
     "tags": [
       "Nuxt.js",
       "Markdown",
-      "Vercel",
+      "GCP",
       "Bootstrap",
       "BEM"
     ]
@@ -24,7 +76,7 @@
     "title": "Craft Irish Whiskey",
     "description": "New luxurious website that ripples on click. This experience is something new you've never seen before.",
     "image": "2020-ciw.png",
-    "link": "https://www.craftirishwhiskey.com/",
+    "link": "https://craft-irish-whiskey.demo.circul8.com.au/",
     "client": "Craft Irish Whiskey",
     "awards": [
       {
