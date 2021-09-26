@@ -55,7 +55,7 @@
                                     <h4>🏆 Awards</h4>
                                     <ul v-if="project.awards" class="card__awards">
                                         <li v-for="(award, index) in project.awards" :key="index">
-                                            <span v-text="award.title"/>
+                                            <a :href="award.link">{{ award.title }}</a>
                                         </li>
                                     </ul>
                                 </template>
@@ -267,6 +267,10 @@ hr {
                 font-size: 0.7rem;
                 transform: translateY(-2px);
             }
+        }
+        a {
+            position: relative;
+            z-index: 10;
         }
     }
 
