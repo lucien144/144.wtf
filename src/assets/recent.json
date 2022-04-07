@@ -1,5 +1,20 @@
 [
   {
+    "title": "Dive The Treasures",
+    "description": "This multilingual website (5 languages) was created to help promote The Islands of Tahiti.",
+    "image": "2022-tahiti.png",
+    "link": "https://diving.tahititourisme.com/",
+    "scope": "website",
+    "client": "Tahiti Tourisme",
+    "awards": [],
+    "tags": [
+      "Nuxt.js",
+      "Wordpress",
+      "Docker",
+      "imgproxy"
+    ]
+  },
+  {
     "title": "From Swamp To Scrub",
     "description": "Promotional website for Sydney's action packed parkland for kids.",
     "image": "2021-swamptoscrub.png",
