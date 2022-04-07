@@ -19,18 +19,19 @@
             <div class="col-12 col-sm-6 text-center">
                 <h3 class="u-darrow">About Me</h3>
                 <ul class="list">
-                    <li class="list__item">💼 <a href="https://www.linkedin.com/in/blaskojan" target="_blank">linkedin.com</a></li>
-                    <li class="list__item">👨‍💻 <a href="https://github.com/lucien144?tab=repositories" target="_blank">github.com</a></li>
-                    <li class="list__item">📸 <a href="https://www.instagram.com/coding.father/" target="_blank">instagram.com</a></li>
+                    <li class="list__item">💼&nbsp;&nbsp;<a href="https://www.linkedin.com/in/blaskojan" target="_blank">linkedin.com</a></li>
+                    <li class="list__item">👨‍💻&nbsp;&nbsp;<a href="https://github.com/lucien144?tab=repositories" target="_blank">github.com</a></li>
+                    <li class="list__item">📸&nbsp;&nbsp;<a href="https://www.instagram.com/coding.father/" target="_blank">instagram.com</a></li>
+                    <li class="list__item">🔉&nbsp;&nbsp;<router-link to="/spotify">spotify.com</router-link></li>
                 </ul>
             </div>
             <div class="col-12 col-sm-6 mt-4 mt-sm-0 text-center">
                 <h3 class="u-darrow">Side Projects</h3>
                 <ul class="list">
-                    <li class="list__item">📱 <a href="https://github.com/lucien144/fyx" target="_blank">Fyx for Nyx.cz</a>&nbsp;<sup>🇨🇿</sup></li>
-                    <li class="list__item">👕 <a href="https://devnull.store" target="_blank">/dev/null store</a></li>
-                    <li class="list__item">🕹 <a href="https://www.thebuttongame.io" target="_blank">The Button Game</a></li>
-                    <li class="list__item">🍿 <a href="https://artkina.cz" target="_blank">Artkina</a>&nbsp;<sup>🇨🇿</sup></li>
+                    <li class="list__item">📱&nbsp;&nbsp;<a href="https://github.com/lucien144/fyx" target="_blank">Fyx for Nyx.cz</a>&nbsp;<sup>🇨🇿</sup></li>
+                    <li class="list__item">👕&nbsp;&nbsp;<a href="https://devnull.store" target="_blank">/dev/null store</a></li>
+                    <li class="list__item">🕹&nbsp;&nbsp;<a href="https://www.thebuttongame.io" target="_blank">The Button Game</a></li>
+                    <li class="list__item">🍿&nbsp;&nbsp;<a href="https://artkina.cz" target="_blank">Artkina</a>&nbsp;<sup>🇨🇿</sup></li>
                 </ul>
             </div>
         </div>
@@ -177,12 +178,6 @@ export default {
     border-radius: 50%;
     border: 2px solid white;
     box-shadow: 0px 0px 1px 1px $grey;
-}
-
-.u-darrow:after {
-    display: block;
-    content: '↓';
-    margin-top: 0.5rem;
 }
 
 .list {
