@@ -7,6 +7,12 @@
                     <router-link to="/">&larr; Go back home</router-link>
                 </nav>
 
+              <h2 class="u-darrow mt-5 mb-3">&hellip;2024</h2>
+              <iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/1OoMUUHRtNukHNEGvIgMQR?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+
+              <h2 class="u-darrow mt-5 mb-3">&hellip;2023</h2>
+              <iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/5vSeQqFW6ydeSkCMlqe2dK?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+
                 <h2 class="u-darrow mt-5 mb-3">&hellip;2022</h2>
                 <iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/2bQhs9gyPqth0tclv12osV?utm_source=generator" width="100%" height="380" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
 
@@ -22,3 +28,5 @@
         </div>
     </main>
 </template>
+<script setup lang="ts">
+</script>

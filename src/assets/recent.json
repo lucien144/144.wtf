@@ -1,9 +1,27 @@
 [
   {
+    "title": "Which Plant Where",
+    "description": "A webapp providing a directory of 2600+ plants and their ability to withstand climate change.",
+    "image": "wpw.png",
+    "link": "https://www.whichplantwhere.com.au/",
+    "casestudy": "https://www.circul8.com.au/work/which-plant-where",
+    "scope": "webapp",
+    "client": "Macquarie University, Hort Innovation",
+    "awards": [],
+    "tags": [
+      "Nuxt.js",
+      "MongoDB",
+      "Laravel",
+      "Docker",
+      "Auth",
+      "Payments"
+    ]
+  },
+  {
     "title": "Dive The Treasures",
     "description": "This multilingual website (5 languages) was created to help promote The Islands of Tahiti.",
     "image": "2022-tahiti.png",
-    "link": "https://diving.tahititourisme.com/",
+    "link": "https://tahiti-staging.circul8.app/#home",
     "scope": "website",
     "client": "Tahiti Tourisme",
     "awards": [],
@@ -18,7 +36,7 @@
     "title": "From Swamp To Scrub",
     "description": "Promotional website for Sydney's action packed parkland for kids.",
     "image": "2021-swamptoscrub.png",
-    "link": "https://www.swamptoscrub.com.au/",
+    "link": "https://swamptoscrub2022.circul8.app/",
     "scope": "microsite",
     "client": "Western Sydney Parklands",
     "awards": [
@@ -59,6 +77,7 @@
     "description": "Website for Sydney Science Trail that celebrates and promotes the Australian science community during National Science Week.",
     "image": "2020-sst.png",
     "link": "http://sydneysciencetrail.demo.circul8.com.au/",
+    "casestudy": "https://www.circul8.com.au/work/sydney-science-trail",
     "scope": "website",
     "client": "Australian Museum, The Royal Botanic Garden Sydney",
     "awards": [
@@ -91,7 +110,7 @@
     "title": "Craft Irish Whiskey",
     "description": "New luxurious website that ripples on click. This experience is something new you've never seen before.",
     "image": "2020-ciw.png",
-    "link": "https://craft-irish-whiskey.demo.circul8.com.au/",
+    "link": "https://craft-irish-whiskey.circul8.app/",
     "client": "Craft Irish Whiskey",
     "awards": [
       {

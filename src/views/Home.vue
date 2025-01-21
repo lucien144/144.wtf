@@ -30,8 +30,8 @@
                 <ul class="list">
                     <li class="list__item">📱&nbsp;&nbsp;<a href="https://github.com/lucien144/fyx" target="_blank">Fyx for Nyx.cz</a>&nbsp;<sup>🇨🇿</sup></li>
                     <li class="list__item">👕&nbsp;&nbsp;<a href="https://devnull.store" target="_blank">/dev/null store</a></li>
-                    <li class="list__item">🕹&nbsp;&nbsp;<a href="https://www.thebuttongame.io" target="_blank">The Button Game</a></li>
-                    <li class="list__item">🍿&nbsp;&nbsp;<a href="https://artkina.cz" target="_blank">Artkina</a>&nbsp;<sup>🇨🇿</sup></li>
+                    <li class="list__item list__item--disabled">🕹&nbsp;&nbsp;<a href="https://www.thebuttongame.io" target="_blank">The Button Game</a></li>
+                    <li class="list__item list__item--disabled">🍿&nbsp;&nbsp;<a href="https://artkina.cz" target="_blank">Artkina</a>&nbsp;<sup>🇨🇿</sup></li>
                 </ul>
             </div>
         </div>
@@ -64,6 +64,13 @@
                                 <ul v-if="project.tags" class="card__tags">
                                     <li v-for="(tag, index) in project.tags" :key="index" v-text="tag"/>
                                 </ul>
+								<template v-if="project.link || project.casestudy">
+									<h4>Links</h4>
+									<div class="d-flex flex-row">
+										<a v-if="project.casestudy" :href="project.casestudy" target="_blank" class="card__btn">🔬 Casestudy</a>
+										<a v-if="project.link" :href="project.link" target="_blank" class="card__btn card__btn--website">Website</a>
+									</div>
+								</template>
                             </div>
                             <a v-if="project.link" :href="project.link" target="_blank" class="card__link"><span class="d-none">Show me</span></a>
                         </div>
@@ -188,6 +195,15 @@ export default {
 
 .list__item {
     margin: .5rem 0;
+
+    &--disabled {
+        opacity: 0.4;
+        filter: grayscale(.4);
+        &:hover {
+          opacity: 1;
+          filter: none;
+        }
+    }
 }
 
 hr {
@@ -209,6 +225,7 @@ hr {
 
     &:hover {
         box-shadow: 0 0 10px $grey-light;
+        transition: all 0.3s ease-out;
     }
 
     &__image {
@@ -234,7 +251,7 @@ hr {
     }
 
     &__tags {
-        margin: 0;
+        margin: 0 0 1rem 0;
         padding: 0;
         list-style: none;
         font-family: 'Open Sans', sans-serif;
@@ -276,6 +293,24 @@ hr {
         width: 100%;
         height: 100%;
     }
+	
+	&__btn {
+		position: relative;
+		z-index: 10;
+		padding: 0.2rem .5rem;
+		margin: 0 0.2rem 0.5rem 0;
+		color: currentColor;
+		background: $grey-light;
+		border: 1px solid $creme;
+		border-radius: 4px;
+		font-family: 'Open Sans', sans-serif;
+		font-size: .85rem;
+		&:hover {
+			border: 1px solid $grey-light;
+			background: $creme;
+			text-decoration: none;
+		}
+	}
 }
 
 abbr {
