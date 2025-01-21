@@ -21,7 +21,7 @@
                 <ul class="list">
                     <li class="list__item">💼&nbsp;&nbsp;<a href="https://www.linkedin.com/in/blaskojan" target="_blank">linkedin.com</a></li>
                     <li class="list__item">👨‍💻&nbsp;&nbsp;<a href="https://github.com/lucien144?tab=repositories" target="_blank">github.com</a></li>
-                    <li class="list__item">📸&nbsp;&nbsp;<a href="https://www.instagram.com/coding.father/" target="_blank">instagram.com</a></li>
+<!--                    <li class="list__item">📸&nbsp;&nbsp;<a href="https://www.instagram.com/coding.father/" target="_blank">instagram.com</a></li>-->
                     <li class="list__item">🔉&nbsp;&nbsp;<router-link to="/spotify">spotify.com</router-link></li>
                 </ul>
             </div>
