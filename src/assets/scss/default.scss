@@ -1,9 +1,10 @@
 @import 'config';
-@import 'bootstrap';
-@import 'typo';
-@import 'utilities';
-
+.theme144 {
+	@import 'bootstrap';
+	@import 'typo';
+	@import 'utilities';
+}
 html, body {
-  background-color: $creme;
-  color: $grey;
+	background-color: $creme;
+	color: $grey;
 }
