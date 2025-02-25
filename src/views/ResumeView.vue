@@ -184,13 +184,13 @@ const toggleDarkMode = () => {
 									vývojář a pracoval pro ně vzdáleně z Prahy. V roce 2016 jsem se svojí ženou a dvěma
 									dětmi do Sydney relokoval, kde jsem další necelé 3 roky působil jako hlavní šéf
 									vývoje, než jsme se vrátili zpět do Čech.</p>
-								<p>S Circul8 se nám podařilo vyhrát několik zajímavých ocenení (Webby Awards, W3 Awards,
+								<p>S Circul8 se nám podařilo vyhrát několik zajímavých ocenění (Webby Awards, W3 Awards,
 									Aimia Awards, ...), mezi nejzajímavější projekty, na kterých jsem pracoval
 									patří:</p>
 								<ul class="list-disc ml-6">
 									<li><a href="https://www.whichplantwhere.com.au/" target="_blank">Which Plant
 										Where</a> - webová databáze rostlin rozdělených podle vlastností sloužící
-										urban-architektům najít nejvhodnější rostliny při plánování zástaby.
+										urban-architektům najít nejvhodnější rostliny při plánování zástavby.
 									</li>
 									<li><a href="https://www.circul8.com.au/work/crop-count" target="_blank">Crop Count
 										(interní aplikace)</a> - mobilní aplikace pro pěstitelé avokád pomáhající zvýšit
@@ -213,14 +213,14 @@ const toggleDarkMode = () => {
 								companyWeb="https://www.goodshape.cz"
 							>
 								<p>Během pobytu v Austrálii mě kontaktoval GoodShape s nabídkou vstoupit do firmy jako
-									spoluvlastník a projektový manažer. Zajímavou nabídku jsem se rozhodl vzít a kromě
-									zmíněných pozic jsem zde zastával i analytika.</p>
+									spoluvlastník a projektový manažer. Zajímavou nabídku jsem přijal a kromě
+									zmíněných pozic jsem zde zastával i pozici UX designéra.</p>
 								<p>Kreslení drátěných modelů, psaní user stories a projektové dokumentace pro mě bylo
-									vedle řízení firmy denní chléb. Mezi nejzajímavější klienty řadím Dopravní podnikl
-									hl. m. Prahy, Prima, Rádio 1 či Trigema.</p>
+									vedle řízení firmy denní chléb. Mezi nejzajímavější klienty řadím Dopravní podnik
+									hl. m. Prahy, TV Prima, Rádio 1 či Trigema.</p>
 								<p>V GoodShape se mi podařilo navázat spolupráci s Circul8, se kterými jsem si udržel
 									kontakt, a určitou dobu jsme pro ně vyvíjeli projekty z Čech - nejzajímavějším byl
-									projekt Live It Up což byl australský klon Grouponu.</p>
+									projekt Live It Up, což byl australský klon Grouponu.</p>
 							</ResumeItem>
 							
 							<ResumeItem
@@ -344,7 +344,7 @@ const toggleDarkMode = () => {
 										href="https://devnull.store"
 									>https://devnull.store</a>
 								</template>
-								<p>Malý obchod s tričky pro webové vývojáře, kteří nechtějí nosit jen omšelé "Keep calm &amp; code" designy.</p>
+								<p>Malý obchod s tričky pro webové vývojáře, kteří nechtějí nosit klasické "Keep calm &amp; code" designy.</p>
 							</TimelineItem>
 							<TimelineItem disabled>
 								<template #subheading>
@@ -358,7 +358,7 @@ const toggleDarkMode = () => {
 										href="https://tbga.me/"
 									>web</a>
 								</template>
-								<p>Mobilní PvP hra pro 2 hráče, kteří proti sobě bojují v hledání čísel na hrací ploše. Zároveň mohou používat proti sobě speciální akce, jako zamíchání čísel, deaktivace čísel atp.</p>
+								<p>Mobilní PvP hra pro 2 hráče, kteří proti sobě bojují v hledání čísel na hrací ploše. Zároveň na sebe mohou útočit speciálními efekty jako zamíchání čísel, deaktivace čísel atp.</p>
 								<p>Projekt je aktuálně pozastavený&hellip;</p>
 							</TimelineItem>
 							<TimelineItem disabled>
