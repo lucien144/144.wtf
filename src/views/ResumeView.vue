@@ -163,12 +163,8 @@ const toggleDarkMode = () => {
 								company="EUC a.s. (Praha)"
 								companyWeb="https://www.euc.cz"
 							>
-								<p>Do EUC jsem nastoupil nejdříve jako konzultant pomáhající se startem nového projektu
-									- překlopením stávající hybridní mobilní aplikace mojeEUC do nativní podoby.</p>
-								<p>Následně jsem celý projekt převzal jako produktový vlastník a přidal k němu další
-									interní produkty jako např. mobilní aplikaci pro Disease management, rezervace
-									eReceptů pro veřejnost, implementaci Azure prostředí do firmy či vývoj nového webu
-									moje.euc.cz.</p>
+								<p>Do EUC jsem nastoupil nejdříve jako konzultant pomáhající se startem nového projektu - překlopením stávající hybridní mobilní aplikace mojeEUC do nativní podoby.</p>
+								<p>Následně jsem celý projekt převzal jako produktový vlastník a přidal k němu další interní produkty jako např. mobilní aplikaci pro Disease management, rezervace eReceptů pro veřejnost, implementaci Azure prostředí do firmy či vývoj nového webu moje.euc.cz.</p>
 								<p>V EUC působím dodnes a všechny zmíněné projekty budou mít start letošní rok.</p>
 							</ResumeItem>
 							
@@ -180,29 +176,17 @@ const toggleDarkMode = () => {
 								company="Circul8 (Praha, Sydney)"
 								companyWeb="https://www.circul8.com.au"
 							>
-								<p>Po opuštění GoodShape jsem se vrátil na nějaký čas zpět do Circul8 jako webový
-									vývojář a pracoval pro ně vzdáleně z Prahy. V roce 2016 jsem se svojí ženou a dvěma
-									dětmi do Sydney relokoval, kde jsem další necelé 3 roky působil jako hlavní šéf
-									vývoje, než jsme se vrátili zpět do Čech.</p>
-								<p>S Circul8 se nám podařilo vyhrát několik zajímavých ocenění (Webby Awards, W3 Awards,
-									Aimia Awards, ...), mezi nejzajímavější projekty, na kterých jsem pracoval
-									patří:</p>
+								<p>Po opuštění GoodShape jsem se vrátil na nějaký čas zpět do Circul8 jako webový vývojář a pracoval pro ně vzdáleně z Prahy. V roce 2016 jsem se svojí ženou a dvěma dětmi do Sydney relokoval, kde jsem další necelé 3 roky působil jako hlavní šéf vývoje než jsme se vrátili zpět do Čech.</p>
+								<p>S Circul8 se nám podařilo vyhrát několik zajímavých ocenění (Webby Awards, W3 Awards, Aimia Awards, ...) a mezi nejzajímavější projekty, na kterých jsem pracoval, patří:</p>
 								<ul class="list-disc ml-6">
-									<li><a href="https://www.whichplantwhere.com.au/" target="_blank">Which Plant
-										Where</a> - webová databáze rostlin rozdělených podle vlastností sloužící
-										urban-architektům najít nejvhodnější rostliny při plánování zástavby.
+									<li><a href="https://www.whichplantwhere.com.au/" target="_blank" class="border-b border-gray-300 hover:border-gray-800 dark:border-gray-600 dark:hover:border-gray-200">Which Plant Where</a> - webová databáze rostlin rozdělených podle vlastností sloužící urban-architektům najít nejvhodnější rostliny při plánování zástavby na 30 let dopředu s přihlédnutím ke klimatickým změnám.
 									</li>
-									<li><a href="https://www.circul8.com.au/work/crop-count" target="_blank">Crop Count
-										(interní aplikace)</a> - mobilní aplikace pro pěstitelé avokád pomáhající zvýšit
-										výnosnost jejich farem pomocí satelitních snímků a speciálního algoritmu.
+									<li><a href="https://www.circul8.com.au/work/crop-count" target="_blank" class="border-b border-gray-300 hover:border-gray-800 dark:border-gray-600 dark:hover:border-gray-200">Crop Count (interní aplikace)</a> - mobilní aplikace pro pěstitelé avokád pomáhající zvýšit výnosnost jejich farem pomocí satelitních snímků a speciálního algoritmu vyvinutého v <a href="https://www.une.edu.au/" target="_blank" class="border-b border-gray-300 hover:border-gray-800 dark:border-gray-600 dark:hover:border-gray-200">University of New England</a>.
 									</li>
-									<li><a href="https://www.desirebull.com.au/" target="_blank">DesireBull (částečně
-										mimo provoz)</a> - vyhledávač býků na základě genetických vlastností usnadňující
-										chovatelům najít "toho pravého" býka pro jejich stádo
+									<li><a href="https://www.desirebull.com.au/" target="_blank" class="border-b border-gray-300 hover:border-gray-800 dark:border-gray-600 dark:hover:border-gray-200">DesireBull (částečně mimo provoz)</a> - vyhledávač býků na základě genetických vlastností usnadňující chovatelům najít "toho pravého" býka pro svoje stádo. Vyvinuto ve spolupráci s <a href="https://www.dpi.nsw.gov.au/" target="_blank" class="border-b border-gray-300 hover:border-gray-800 dark:border-gray-600 dark:hover:border-gray-200">Department of Primary Industries</a>.
 									</li>
 								</ul>
-								<p>S Circul8 jsem dál v úzkém pracovním kontaktu, ačkoli se míra spolupráce i s ohledem
-									na další projekty zredukovala.</p>
+								<p>S Circul8 jsem dál v úzkém pracovním kontaktu, ačkoli se míra spolupráce i s ohledem na další projekty zredukovala.</p>
 							</ResumeItem>
 							
 							<ResumeItem
@@ -213,7 +197,7 @@ const toggleDarkMode = () => {
 								companyWeb="https://www.goodshape.cz"
 							>
 								<p>Během pobytu v Austrálii mě kontaktoval GoodShape s nabídkou vstoupit do firmy jako
-									spoluvlastník a projektový manažer. Zajímavou nabídku jsem přijal a kromě
+									spoluvlastník a projektový manažer. Zajímavou příležitost jsem přijal a kromě
 									zmíněných pozic jsem zde zastával i pozici UX designéra.</p>
 								<p>Kreslení drátěných modelů, psaní user stories a projektové dokumentace pro mě bylo
 									vedle řízení firmy denní chléb. Mezi nejzajímavější klienty řadím Dopravní podnik
@@ -246,7 +230,7 @@ const toggleDarkMode = () => {
 								companyWeb="https://www.goodshape.cz"
 							>
 								<p>Po cca roce a půl na volné noze jsem chtěl nabrat nové zkušenosti a zakotvil v té
-									době malém rozrůstajícím studiu GoodShape. V GoodShape jsem pracoval na webových
+									době malém rozrůstajícím se studiu GoodShape. V GoodShape jsem pracoval na webových
 									projektech pro různé klienty středních velikostí a dále jako správce serverů.</p>
 							</ResumeItem>
 							
@@ -255,15 +239,15 @@ const toggleDarkMode = () => {
 								end="11/2006"
 								role="Na volné noze"
 							>
-								<p>Během studia na vysoké škole (<a href="https://fei.upce.cz/" target="_blank">UPCE</a>)
+								<p>Během studia na vysoké škole (<a href="https://fei.upce.cz/" target="_blank" class="border-b border-gray-300 hover:border-gray-800 dark:border-gray-600 dark:hover:border-gray-200">UPCE</a>)
 									jsem si začal přivydělávat nejdříve jako grafik, následně jako webový programátor. Z
 									vysoké školy jsem odešel po dokončeném druhém ročníku a začal se plně živit jako
 									vývojář na volné noze.</p>
 								<p>Postupem času jsem začal spolupracovat hlavně se společností <a
-									href="https://www.linkedin.com/company/inspiro-solutions/" target="_blank">Inspiro
+									href="https://www.linkedin.com/company/inspiro-solutions/" target="_blank" class="border-b border-gray-300 hover:border-gray-800 dark:border-gray-600 dark:hover:border-gray-200">Inspiro
 									Solutions</a>, která mi dodávala většinu zakázek. Pro tu jsem vybudoval její
 									vlajkový produkt Inspiro Publisher CMS - tedy redakční systém, které tehdy poháněl
-									weby všech jejích klientů.</p>
+									weby všech firemních klientů.</p>
 							</ResumeItem>
 						
 						</ResumeSection>
@@ -303,17 +287,17 @@ const toggleDarkMode = () => {
 								<template #title>
 									<span class="font-bold">Fyx</span> &ndash;
 									<a
-										class="font-medium text-sm"
+										class="font-medium text-sm border-b border-gray-300 hover:border-gray-800 dark:border-gray-600 dark:hover:border-gray-200"
 										target="_blank"
 										href="https://apps.apple.com/cz/app/fyx-pro-nyx-cz/id1507921589?l=cs"
 									>iOS</a>,
 									<a
-										class="font-medium text-sm"
+										class="font-medium text-sm border-b border-gray-300 hover:border-gray-800 dark:border-gray-600 dark:hover:border-gray-200"
 										target="_blank"
 										href="https://play.google.com/store/apps/details?id=net.lucien144.fyx"
 									>Android</a>,
 									<a
-										class="font-medium text-sm"
+										class="font-medium text-sm border-b border-gray-300 hover:border-gray-800 dark:border-gray-600 dark:hover:border-gray-200"
 										target="_blank"
 										href="https://github.com/lucien144/fyx"
 									>Zdrojové kódy</a>
@@ -339,7 +323,7 @@ const toggleDarkMode = () => {
 								<template #title>
 									<span class="font-bold font-mono">/dev/null</span> &ndash;
 									<a
-										class="font-medium text-sm"
+										class="font-medium text-sm border-b border-gray-300 hover:border-gray-800 dark:border-gray-600 dark:hover:border-gray-200"
 										target="_blank"
 										href="https://devnull.store"
 									>https://devnull.store</a>
@@ -353,7 +337,7 @@ const toggleDarkMode = () => {
 								<template #title>
 									<span class="font-bold">The Button Game</span> &ndash;
 									<a
-										class="font-medium text-sm"
+										class="font-medium text-sm border-b border-gray-300 hover:border-gray-800 dark:border-gray-600 dark:hover:border-gray-200"
 										target="_blank"
 										href="https://tbga.me/"
 									>web</a>
@@ -368,20 +352,20 @@ const toggleDarkMode = () => {
 								<template #title>
 									<span class="font-bold">Artkina</span> &ndash;
 									<a
-										class="font-medium text-sm"
+										class="font-medium text-sm border-b border-gray-300 hover:border-gray-800 dark:border-gray-600 dark:hover:border-gray-200"
 										target="_blank"
 										href="https://www.artkina.cz"
 									>web</a>,
 									<a
-										class="font-medium text-sm"
+										class="font-medium text-sm border-b border-gray-300 hover:border-gray-800 dark:border-gray-600 dark:hover:border-gray-200"
 										target="_blank"
 										href="https://play.google.com/store/apps/details?id=cz.goodshape.artkina"
 									>Android</a>,
 									<span
-										class="font-medium text-sm text-gray-500 dark:text-white line-through"
+										class="font-medium text-sm text-gray-500 dark:text-white line-through border-b border-gray-300 hover:border-gray-800 dark:border-gray-600 dark:hover:border-gray-200"
 									>iOS</span>
 								</template>
-								<p>Aplikace pro miloníky filmu a především artových kin, která sdružovala program právě z artových kin po celé ČR.</p>
+								<p>Aplikace pro miloníky filmu a artových kin, která sdružovala program právě z artových kin po celé ČR.</p>
 								<p>Projekt je aktuálně pozastavený&hellip;</p>
 							</TimelineItem>
 						</ResumeSection>
@@ -417,7 +401,7 @@ const toggleDarkMode = () => {
 									<template #title>
 										Pracovní profil
 									</template>
-									<a href="https://www.linkedin.com/in/blaskojan" target="_blank" class="text-sm font-medium">www.linkedin.com/in/blaskojan</a>
+									<a href="https://www.linkedin.com/in/blaskojan" target="_blank" class="text-sm font-medium border-b border-gray-300 hover:border-gray-800 dark:border-gray-600 dark:hover:border-gray-200">www.linkedin.com/in/blaskojan</a>
 								</TimelineItem>
 								
 								<TimelineItem>
@@ -425,7 +409,7 @@ const toggleDarkMode = () => {
 									<template #title>
 										Soukromý profil
 									</template>
-									<a href="https://github.com/lucien144" target="_blank" class="text-sm font-medium">github.com/lucien144</a>
+									<a href="https://github.com/lucien144" target="_blank" class="text-sm font-medium border-b border-gray-300 hover:border-gray-800 dark:border-gray-600 dark:hover:border-gray-200">github.com/lucien144</a>
 								</TimelineItem>
 								
 								<TimelineItem>
@@ -433,7 +417,7 @@ const toggleDarkMode = () => {
 									<template #title>
 										Soukromý profil
 									</template>
-									<a href="https://bsky.app/profile/lucien144.bsky.social" target="_blank" class="text-sm font-medium">@lucien144.bsky.social</a>
+									<a href="https://bsky.app/profile/lucien144.bsky.social" target="_blank" class="text-sm font-medium border-b border-gray-300 hover:border-gray-800 dark:border-gray-600 dark:hover:border-gray-200">@lucien144.bsky.social</a>
 								</TimelineItem>
 							</ResumeSection>
 							

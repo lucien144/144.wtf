@@ -23,13 +23,16 @@ const reverse = ref(false);
 		>
 			<div class="flex items-center justify-between">
 				<h3 class="text-xl font-medium" v-html="title"/>
-				<button v-if="sort" class="text-gray-400 hover:text-gray-800 cursor-pointer" @click="reverse = !reverse">
-					<svg v-if="reverse" width="18" height="18" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-						<path d="M17 4V15M17 15L13 11M17 15L21 11M7 4V20M7 20L3 16M7 20L11 16" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+				<button
+					v-if="sort"
+					class="flex items-center text-gray-400 hover:text-gray-800 cursor-pointer"
+					@click="reverse = !reverse"
+				>
+					<svg width="14" height="14" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+						<path d="M17 2L21 6M21 6L17 10M21 6H7.8C6.11984 6 5.27976 6 4.63803 6.32698C4.07354 6.6146 3.6146 7.07354 3.32698 7.63803C3 8.27976 3 9.11984 3 10.8V11M3 18H16.2C17.8802 18 18.7202 18 19.362 17.673C19.9265 17.3854 20.3854 16.9265 20.673 16.362C21 15.7202 21 14.8802 21 13.2V13M3 18L7 22M3 18L7 14" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
 					</svg>
-					<svg v-else width="18" height="18" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-						<path d="M7 20V4M7 4L3 8M7 4L11 8M17 20V9M17 9L13 13M17 9L21 13" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-					</svg>
+					<span v-if="reverse" class="text-sm ml-2">nyní&rarr;tenkrát</span>
+					<span v-else class="text-sm ml-2">nyní&larr;tenkrát</span>
 				</button>
 			</div>
 		</div>

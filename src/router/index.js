@@ -21,6 +21,11 @@ const router = createRouter({
       name: 'resume',
       component: () => import('../views/ResumeView.vue'),
     },
+    {
+      path: '/dopis',
+      name: 'letter',
+      component: () => import('../views/LetterView.vue'),
+    },
   ],
 })
 
