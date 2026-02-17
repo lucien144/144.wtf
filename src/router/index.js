@@ -16,16 +16,16 @@ const router = createRouter({
       name: 'spotify',
       component: SpotifyView,
     },
-    {
-      path: '/zivotopis',
-      name: 'resume',
-      component: () => import('../views/ResumeView.vue'),
-    },
-    {
-      path: '/dopis',
-      name: 'letter',
-      component: () => import('../views/LetterView.vue'),
-    },
+    // {
+    //   path: '/zivotopis',
+    //   name: 'resume',
+    //   component: () => import('../views/ResumeView.vue'),
+    // },
+    // {
+    //   path: '/dopis',
+    //   name: 'letter',
+    //   component: () => import('../views/LetterView.vue'),
+    // },
   ],
 })
 

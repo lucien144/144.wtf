@@ -1,5 +1,33 @@
 [
   {
+    "title": "One School Global",
+    "description": "Redevelopment of the global promotional website for an international network of 120+ campuses.",
+    "image": "2025-osg.png",
+    "link": "https://www.oneschoolglobal.com/",
+    "scope": "webapp",
+    "client": "One School Global",
+    "awards": [],
+    "tags": [
+      "Headless",
+      "Nuxt",
+      "Tailwind",
+      "Docker"
+    ]
+  },
+  {
+    "title": "Austin Studio",
+    "description": "New website for a storytelling-led production studio connecting directors, artists and brands.",
+    "image": "2023-austin.png",
+    "link": "https://www.austinstudio.com.au/",
+    "scope": "webapp",
+    "client": "Austin Studio",
+    "awards": [],
+    "tags": [
+      "Headless",
+      "Vue"
+    ]
+  },
+  {
     "title": "Discover Whitlam",
     "description": "Life of Australias's 21st Prime Minister in an interactive form for educational purposes.",
     "image": "2022-whitlam.png",
